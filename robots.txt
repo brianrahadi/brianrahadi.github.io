@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://brianrahadi.github.io/sitemap.xml
