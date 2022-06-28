@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>guide on Brian Rahadi</title>
+    <link>https://brianrahadi.github.io/categories/guide/</link>
+    <description>Recent content in guide on Brian Rahadi</description>
+    <image>
+      <url>https://brianrahadi.github.io/brian-rahadi.jpg</url>
+      <link>https://brianrahadi.github.io/brian-rahadi.jpg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 27 Jun 2022 14:54:10 -0700</lastBuildDate><atom:link href="https://brianrahadi.github.io/categories/guide/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SFU CS/ SoSy Transfer Guide</title>
+      <link>https://brianrahadi.github.io/posts/sfu-cs-transfer-guide/</link>
+      <pubDate>Mon, 27 Jun 2022 14:54:10 -0700</pubDate>
+      
+      <guid>https://brianrahadi.github.io/posts/sfu-cs-transfer-guide/</guid>
+      <description>Introduction Hello! My name is Brian. I have just transferred to Simon Fraser University&amp;rsquo;s Software Systems program this summer after graduating from Langara with an Associate in Computer Science.
+In this guide, I will show you all the knowledge that I have accumulated to successfully transfer to Simon Fraser University (CS/ SoSy). You can also check out this guide for the UBC version.
+My guide here is mainly intended for Langara College students aiming to transfer to SFU.</description>
+    </item>
+    
+  </channel>
+</rss>
