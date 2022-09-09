@@ -2,34 +2,34 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on Brian Rahadi</title>
-    <link>https://brianrahadi.github.io/categories/</link>
+    <link>https://brianrahadi.com/categories/</link>
     <description>Recent content in Categories on Brian Rahadi</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 27 Jun 2022 14:54:10 -0700</lastBuildDate><atom:link href="https://brianrahadi.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Jun 2022 14:54:10 -0700</lastBuildDate><atom:link href="https://brianrahadi.com/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>guide</title>
-      <link>https://brianrahadi.github.io/categories/guide/</link>
+      <link>https://brianrahadi.com/categories/guide/</link>
       <pubDate>Mon, 27 Jun 2022 14:54:10 -0700</pubDate>
       
-      <guid>https://brianrahadi.github.io/categories/guide/</guid>
+      <guid>https://brianrahadi.com/categories/guide/</guid>
       <description></description>
     </item>
     
     <item>
       <title>writings</title>
-      <link>https://brianrahadi.github.io/categories/writings/</link>
+      <link>https://brianrahadi.com/categories/writings/</link>
       <pubDate>Fri, 10 Dec 2021 20:10:00 -0800</pubDate>
       
-      <guid>https://brianrahadi.github.io/categories/writings/</guid>
+      <guid>https://brianrahadi.com/categories/writings/</guid>
       <description></description>
     </item>
     
     <item>
       <title>books</title>
-      <link>https://brianrahadi.github.io/categories/books/</link>
+      <link>https://brianrahadi.com/categories/books/</link>
       <pubDate>Mon, 22 Nov 2021 10:39:31 -0800</pubDate>
       
-      <guid>https://brianrahadi.github.io/categories/books/</guid>
+      <guid>https://brianrahadi.com/categories/books/</guid>
       <description></description>
     </item>
     
