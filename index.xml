@@ -12,8 +12,8 @@
       <pubDate>Mon, 22 Aug 2022 10:20:08 -0800</pubDate>
       
       <guid>https://brianrahadi.com/projects/</guid>
-      <description>One of the reasons why I liked software is how easy it is to build things with minimal tools (just a laptop and an internet!). Below are the lists of projects I have made ordered by what I thought to be most interesting from the top.
- Parkland A full-stack amusement park website that have many features. It allows user login, signup, and it has its own reviews page with full CRUD functionality.</description>
+      <description>One of the reasons why I liked software is how easy it is to build things with minimal tools (just a laptop and an internet!). Below are the lists of projects I have made ordered by the interestingness from the top.
+ sfuia.com Simon Fraser University Indonesian Association&amp;rsquo;s website acts as the information hub for Indonesian students at SFU. Currently, we use Next.js (framework of react.js) as it feels nicer to build with its routing, better images, and rendering.</description>
     </item>
     
     <item>
@@ -109,8 +109,9 @@ Types of Deep Work
       
       <guid>https://brianrahadi.com/about/</guid>
       <description>Intro My name is Brian Rahadi. I&amp;rsquo;m currently studying Software Systems (subset of CS) at Simon Fraser University.
-During my time here, I realized how beautiful life is. This website will be my main place to dump ideas and share it into the world.
-Since my freshman year of university, I have developed a keen interest in computer software. There will be many more things that I have not yet figured out :).</description>
+This website will be my main place to dump ideas and share it into the world.
+Since my freshman year of university, I have developed a keen interest in computer software. There will be many more things that I have not yet figured out :).
+Currently, I am just focusing on my courses, work, and building websites Education  Simon Fraser University (May 2022 - Apr 2024 Expected) Bachelor of Science, Computing Science in Software Systems Relevant Coursework: Software Engineering, Computer Systems, and Object Oriented Design</description>
     </item>
     
     
