@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Term Review - Fall 2022 | Brian Rahadi</title>
+<meta name="keywords" content="" />
+<meta name="description" content="Intro Fall 2022 has been quite a rough ride as it&rsquo;s my first time taking 4 CMPT courses. There were some moments where I didn&rsquo;t get the time to revise some content, but overall, this term was pretty good.
+Courses CMPT 300 - Operating Systems I (Hazra Imran) Course Experience: 4/5 Pros: Interesting assignments, decent lectures (recorded), and finish-for-marks class exercises Cons: The exam is quite tricky and assignment requirements might not be detailed enough.">
+<meta name="author" content="Brian Rahadi">
+<link rel="canonical" href="https://brianrahadi.com/posts/term-review-2022fall/" />
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.c88963fe2d79462000fd0fb1b3737783c32855d340583e4523343f8735c787f0.css" integrity="sha256-yIlj/i15RiAA/Q&#43;xs3N3g8MoVdNAWD5FIzQ/hzXHh/A=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/assets/js/highlight.min.7680afc38aa6b15ddf158a4f3780b7b1f7dde7e91d26f073e6229bb7a0793c92.js" integrity="sha256-doCvw4qmsV3fFYpPN4C3sffd5&#43;kdJvBz5iKbt6B5PJI="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="https://brianrahadi.com/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://brianrahadi.com/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://brianrahadi.com/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://brianrahadi.com/apple-touch-icon.png">
+<link rel="mask-icon" href="https://brianrahadi.com/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<meta name="generator" content="Hugo 0.89.2" />
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-123-45', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script><meta property="og:title" content="Term Review - Fall 2022" />
+<meta property="og:description" content="Intro Fall 2022 has been quite a rough ride as it&rsquo;s my first time taking 4 CMPT courses. There were some moments where I didn&rsquo;t get the time to revise some content, but overall, this term was pretty good.
+Courses CMPT 300 - Operating Systems I (Hazra Imran) Course Experience: 4/5 Pros: Interesting assignments, decent lectures (recorded), and finish-for-marks class exercises Cons: The exam is quite tricky and assignment requirements might not be detailed enough." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://brianrahadi.com/posts/term-review-2022fall/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-12-20T14:23:20-08:00" />
+<meta property="article:modified_time" content="2022-12-20T14:23:20-08:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Term Review - Fall 2022"/>
+<meta name="twitter:description" content="Intro Fall 2022 has been quite a rough ride as it&rsquo;s my first time taking 4 CMPT courses. There were some moments where I didn&rsquo;t get the time to revise some content, but overall, this term was pretty good.
+Courses CMPT 300 - Operating Systems I (Hazra Imran) Course Experience: 4/5 Pros: Interesting assignments, decent lectures (recorded), and finish-for-marks class exercises Cons: The exam is quite tricky and assignment requirements might not be detailed enough."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://brianrahadi.com/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Term Review - Fall 2022",
+      "item": "https://brianrahadi.com/posts/term-review-2022fall/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Term Review - Fall 2022",
+  "name": "Term Review - Fall 2022",
+  "description": "Intro Fall 2022 has been quite a rough ride as it\u0026rsquo;s my first time taking 4 CMPT courses. There were some moments where I didn\u0026rsquo;t get the time to revise some content, but overall, this term was pretty good.\nCourses CMPT 300 - Operating Systems I (Hazra Imran) Course Experience: 4/5 Pros: Interesting assignments, decent lectures (recorded), and finish-for-marks class exercises Cons: The exam is quite tricky and assignment requirements might not be detailed enough.",
+  "keywords": [
+    
+  ],
+  "articleBody": "Intro Fall 2022 has been quite a rough ride as it’s my first time taking 4 CMPT courses. There were some moments where I didn’t get the time to revise some content, but overall, this term was pretty good.\nCourses CMPT 300 - Operating Systems I (Hazra Imran) Course Experience: 4/5 Pros: Interesting assignments, decent lectures (recorded), and finish-for-marks class exercises Cons: The exam is quite tricky and assignment requirements might not be detailed enough. Self-feedback: Start assignments super early to allow more time to ask later\nI really enjoyed CMPT300 offering by Dr. Hazra. She is quite understanding and assignments are really interesting (programs related to OS concepts in C). It could have been a 5/5 for me, but there were mainly 2 reasons:  Some MCs in the exam cover contents that are mentioned quite rarely and you need to really understand all the way to get full marks from the select all options. The assignment requirements can be a bit vague and you need to decipher every single thing. There are some corner cases that are not yet answered. Usually, the implementation of these corner cases is up to us in the end. Having some test cases would definitely help a lot in easing students' anxiety.  Another thing is how hard and time-consuming her final is. I was caught off guard as I have plenty of times in two of her midterms.\nOverall, I think our instructor has tried her best to make this tough course enjoyable. I wouldn’t mind taking another course with Dr. Hazra again.\nCMPT 383 - Comparative Programming Languages (Anders Miltner) Experience: 5/5 Pros: All vitamins and assignments have test cases, and engaging lectures Cons: 98+ for A+ (╯°□°)╯︵ ┻━┻ Self-feedback: Make sure all corner cases are solved, some marks are off as I already felt confident having passed all the given test cases\nCMPT383 by Anders covers Haskell and Rust. We learned the concepts of functional programming in Haskell and how Rust handles memory very elegantly.\nIn the first half, I was quite intrigued by what Haskell is capable of. I didn’t understand functional programming at all in the beginning. Basically, you cannot do any loops in Haskell and every variable is a constant. Yes, you heard it, it’s constant.\nThe difference between Haskell and most programming languages (Python, Java, C) is that Haskell is declarative while the former is imperative. Declarative is telling the program what you want (without specifying how to get it), while imperative is telling the program what to do. While declarative seems more work, it might be more concise (beautiful) in some cases.\nallDivisors :: Int - [Int] allDivisors n = [x | x  [n, n-1..1], mod x n == 0] -- Haskell function that returns all divisors from a number in ascending order def all_divisors(n: int) - [int]: res = [] for i in range(1, n): if n % i == 0: res.append(i) return res ## The same function written in python In this example, I would say the Haskell code is more concise and readable than the python code. However, most things are inefficient in functional programming (as speed is not their main forte). For example, arrays are linked lists in Haskell. This makes the access time O(n) for arrays.\nThe second half is about rust, I find rust to be very elegant and solve a lot of problems that C has. To make it simple, you won’t be having any dangling pointers in rust due to its ownership features.\n Each variable in rust can only have 1 owner and this value will be dropped if the owner goes out of scope.\n Thus, compiling code can be harder in rust as they are more strict. However, you can rest assured that memory problem will happen way LESS likely if your code were to compile.\nCMPT 371 - Data Communications and Networking (Ouldooz Baghban Karimi) Experience: 3/5 Pros: Organized canvas, caring lecturer, has recorded video (summary) Cons: Lecture is a bit bland, Homework is mostly answered already answered in the textbook Self-feedback: Read the textbook if needed as sometimes slides are way too abstract.\nOuldooz is caring and takes an effort in trying to make students want to succeed. However, I felt networking itself is a course that is quite boring for most students (as seen from the attendance rate compared to other courses). Most problems here are theories and I don’t mind learning the theories, but compared to classes like Operating Systems, I don’t find the theory in this course to be connected to each other. Thus, it makes it a bit hard to understand the bigger picture of what this course has to offer.\nAn improvement that could have been made is to have programming problems that relate to the theory. This would make the course to be more bearable.\nCMPT 272 - Web I - Client-side Development (Bobby Chan) Experience: 3/5 Pros: Interesting topics, very hands-on lecture\nCons: Hands-on can be very hard if you don’t understand, Hard-to-ace exams Self-feedback: Annotate key topics as Bobby tends to be fast-paced\nI had the pleasure to take the first offering of CMPT 272. This course teaches you all about HTML, CSS, JavaScript, Typescript, Angular, and APIs.\nThe Typescript and Angular parts are quite useful and I am thrilled to know the ins and outs of building websites with them.\nBobby is very hands-on and I need to make sure to catch up with the materials to understand what he is talking about. Class is not recorded, and while the lecture codes are posted in GitLab, It is harder and might take way more time in understanding what the code does compare to just seeing him code in real-time.\nOverall, I find this course to be 3/5 as Bobby likes to put a lot of weight in midterms and finals. The average for the final was 60 and it is mandatory to pass the final to pass the course.\nCourse final project: Pig Locator\nWhat went well  Able to finish all assignments on-time  What could have been better  Time management can be fixed in the second half Rarely attended office hours as assignments are done near the deadline  Conclusion Overall, I really enjoyed this term’s courses. Nothing much to say. Feel free to contact me if you have any questions :D.\n",
+  "wordCount" : "1055",
+  "inLanguage": "en",
+  "datePublished": "2022-12-20T14:23:20-08:00",
+  "dateModified": "2022-12-20T14:23:20-08:00",
+  "author":{
+    "@type": "Person",
+    "name": "Brian Rahadi"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://brianrahadi.com/posts/term-review-2022fall/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Brian Rahadi",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://brianrahadi.com/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://brianrahadi.com/" accesskey="h" title="Brian Rahadi (Alt + H)">Brian Rahadi</a>
+            <span class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </span>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://brianrahadi.com/about" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://brianrahadi.com/experience" title="Experience">
+                    <span>Experience</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://brianrahadi.com/projects" title="Projects">
+                    <span>Projects</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://brianrahadi.com/blog" title="Blog">
+                    <span>Blog</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://brianrahadi.com/categories/" title="Categories">
+                    <span>Categories</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://brianrahadi.com/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://brianrahadi.com/">Home</a>&nbsp;»&nbsp;<a href="https://brianrahadi.com/posts/">Posts</a></div>
+    <h1 class="post-title">
+      Term Review - Fall 2022
+    </h1>
+    <div class="post-meta"><span title='2022-12-20 14:23:20 -0800 PST'>December 20, 2022</span>&nbsp;·&nbsp;5 min&nbsp;·&nbsp;Brian Rahadi
+
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#intro" aria-label="Intro">Intro</a></li>
+                <li>
+                    <a href="#courses" aria-label="Courses">Courses</a><ul>
+                        
+                <li>
+                    <a href="#cmpt-300---operating-systems-i-hazra-imran" aria-label="CMPT 300 - Operating Systems I (Hazra Imran)">CMPT 300 - Operating Systems I (Hazra Imran)</a></li>
+                <li>
+                    <a href="#cmpt-383---comparative-programming-languages-anders-miltner" aria-label="CMPT 383 - Comparative Programming Languages (Anders Miltner)">CMPT 383 - Comparative Programming Languages (Anders Miltner)</a></li>
+                <li>
+                    <a href="#cmpt-371---data-communications-and-networking-ouldooz-baghban-karimi" aria-label="CMPT 371 - Data Communications and Networking (Ouldooz Baghban Karimi)">CMPT 371 - Data Communications and Networking (Ouldooz Baghban Karimi)</a></li>
+                <li>
+                    <a href="#cmpt-272---web-i---client-side-development-bobby-chan" aria-label="CMPT 272 - Web I - Client-side Development (Bobby Chan)">CMPT 272 - Web I - Client-side Development (Bobby Chan)</a></li></ul>
+                </li>
+                <li>
+                    <a href="#what-went-well" aria-label="What went well">What went well</a></li>
+                <li>
+                    <a href="#what-could-have-been-better" aria-label="What could have been better">What could have been better</a></li>
+                <li>
+                    <a href="#conclusion" aria-label="Conclusion">Conclusion</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><h2 id="intro">Intro<a hidden class="anchor" aria-hidden="true" href="#intro">#</a></h2>
+<p>Fall 2022 has been quite a rough ride as it&rsquo;s my first time taking 4 CMPT courses. There were some moments where I didn&rsquo;t get the time to revise some content, but overall, this term was pretty good.</p>
+<h2 id="courses">Courses<a hidden class="anchor" aria-hidden="true" href="#courses">#</a></h2>
+<h3 id="cmpt-300---operating-systems-i-hazra-imran">CMPT 300 - Operating Systems I (Hazra Imran)<a hidden class="anchor" aria-hidden="true" href="#cmpt-300---operating-systems-i-hazra-imran">#</a></h3>
+<p><strong>Course Experience</strong>: 4/5 <br>
+<strong>Pros</strong>: Interesting assignments, decent lectures (recorded), and finish-for-marks class exercises <br>
+<strong>Cons</strong>: The exam is quite tricky and assignment requirements might not be detailed enough. <br>
+<strong>Self-feedback</strong>: Start assignments super early to allow more time to ask later</p>
+<p>I really enjoyed CMPT300 offering by Dr. Hazra. She is quite understanding and assignments are really interesting (programs related to OS concepts in C). It could have been a 5/5 for me, but there were mainly 2 reasons: <br></p>
+<ul>
+<li>Some MCs in the exam cover contents that are mentioned quite rarely and you need to really understand all the way to get full marks from the select all options.</li>
+<li>The assignment requirements can be a bit vague and you need to decipher every single thing. There are some corner cases that are not yet answered. Usually, the implementation of these corner cases is up to us in the end. Having some test cases would definitely help a lot in easing students' anxiety.</li>
+</ul>
+<p>Another thing is how hard and time-consuming her final is. I was caught off guard as I have plenty of times in two of her midterms.</p>
+<p>Overall, I think our instructor has tried her best to make this tough course enjoyable. I wouldn&rsquo;t mind taking another course with Dr. Hazra again.</p>
+<h3 id="cmpt-383---comparative-programming-languages-anders-miltner">CMPT 383 - Comparative Programming Languages (Anders Miltner)<a hidden class="anchor" aria-hidden="true" href="#cmpt-383---comparative-programming-languages-anders-miltner">#</a></h3>
+<p><strong>Experience</strong>: 5/5 <br>
+<strong>Pros</strong>: All vitamins and assignments have test cases, and engaging lectures <br>
+<strong>Cons</strong>: 98+ for A+ (╯°□°)╯︵ ┻━┻ <br>
+<strong>Self-feedback</strong>: Make sure all corner cases are solved, some marks are off as I already felt confident having passed all the given test cases</p>
+<p>CMPT383 by Anders covers Haskell and Rust. We learned the concepts of functional programming in Haskell and how Rust handles memory very elegantly.</p>
+<p>In the first half, I was quite intrigued by what Haskell is capable of. I didn&rsquo;t understand functional programming at all in the beginning. Basically, you cannot do any loops in Haskell and every variable is a constant. Yes, you heard it, it&rsquo;s constant.</p>
+<p>The difference between Haskell and most programming languages (Python, Java, C) is that Haskell is <strong>declarative</strong> while the former is <strong>imperative</strong>. Declarative is telling the program what you want (without specifying how to get it), while imperative is telling the program what to do. While declarative seems more work, it might be more concise (beautiful) in some cases.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-hs" data-lang="hs"><span style="color:#a6e22e">allDivisors</span> <span style="color:#f92672">::</span> <span style="color:#66d9ef">Int</span> <span style="color:#f92672">-&gt;</span> [<span style="color:#66d9ef">Int</span>]
+<span style="color:#a6e22e">allDivisors</span> n <span style="color:#f92672">=</span> [x <span style="color:#f92672">|</span> x <span style="color:#f92672">&lt;-</span> [n, n<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span><span style="color:#f92672">..</span><span style="color:#ae81ff">1</span>], mod x n <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>]
+<span style="color:#75715e">-- Haskell function that returns all divisors from a number in ascending order</span>
+</code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">all_divisors</span>(n: int) <span style="color:#f92672">-&gt;</span> [int]:
+    res <span style="color:#f92672">=</span> []
+    <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">1</span>, n):
+        <span style="color:#66d9ef">if</span> n <span style="color:#f92672">%</span> i <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>:
+            res<span style="color:#f92672">.</span>append(i)
+    <span style="color:#66d9ef">return</span> res
+<span style="color:#75715e">## The same function written in python</span>
+</code></pre></div><p>In this example, I would say the Haskell code is more concise and readable than the python code. However, most things are inefficient in functional programming (as speed is not their main forte). For example, arrays are linked lists in Haskell. This makes the access time O(n) for arrays.</p>
+<p>The second half is about rust, I find rust to be very elegant and solve a lot of problems that C has. To make it simple, you won&rsquo;t be having any dangling pointers in rust due to its ownership features.</p>
+<blockquote>
+<p>Each variable in rust can only have 1 owner and this value will be dropped if the owner goes out of scope.</p>
+</blockquote>
+<p>Thus, compiling code can be harder in rust as they are more strict. However, you can rest assured that memory problem will happen way LESS likely if your code were to compile.</p>
+<h3 id="cmpt-371---data-communications-and-networking-ouldooz-baghban-karimi">CMPT 371 - Data Communications and Networking (Ouldooz Baghban Karimi)<a hidden class="anchor" aria-hidden="true" href="#cmpt-371---data-communications-and-networking-ouldooz-baghban-karimi">#</a></h3>
+<p><strong>Experience</strong>: 3/5 <br>
+<strong>Pros</strong>: Organized canvas, caring lecturer, has recorded video (summary) <br>
+<strong>Cons</strong>: Lecture is a bit bland, Homework is mostly answered already answered in the textbook <br>
+<strong>Self-feedback</strong>: Read the textbook if needed as sometimes slides are way too abstract.</p>
+<p>Ouldooz is caring and takes an effort in trying to make students want to succeed. However, I felt networking itself is a course that is quite boring for most students (as seen from the attendance rate compared to other courses). Most problems here are theories and I don&rsquo;t mind learning the theories, but compared to classes like Operating Systems, I don&rsquo;t find the theory in this course to be connected to each other. Thus, it makes it a bit hard to understand the bigger picture of what this course has to offer.</p>
+<p>An improvement that could have been made is to have programming problems that relate to the theory. This would make the course to be more bearable.</p>
+<h3 id="cmpt-272---web-i---client-side-development-bobby-chan">CMPT 272 - Web I - Client-side Development (Bobby Chan)<a hidden class="anchor" aria-hidden="true" href="#cmpt-272---web-i---client-side-development-bobby-chan">#</a></h3>
+<p><strong>Experience</strong>: 3/5 <br>
+<strong>Pros</strong>: Interesting topics, very hands-on lecture<br>
+<strong>Cons</strong>: Hands-on can be very hard if you don&rsquo;t understand, Hard-to-ace exams <br>
+<strong>Self-feedback</strong>: Annotate key topics as Bobby tends to be fast-paced</p>
+<p>I had the pleasure to take the first offering of CMPT 272. This course teaches you all about HTML, CSS, JavaScript, Typescript, Angular, and APIs.</p>
+<p>The Typescript and Angular parts are quite useful and I am thrilled to know the ins and outs of building websites with them.</p>
+<p>Bobby is very hands-on and I need to make sure to catch up with the materials to understand what he is talking about. Class is not recorded, and while the lecture codes are posted in GitLab, It is harder and might take way more time in understanding what the code does compare to just seeing him code in real-time.</p>
+<p>Overall, I find this course to be 3/5 as Bobby likes to put a lot of weight in midterms and finals. The average for the final was 60 and it is mandatory to pass the final to pass the course.</p>
+<p>Course final project: <a href="../../projects/#pig-locator">Pig Locator</a></p>
+<h2 id="what-went-well">What went well<a hidden class="anchor" aria-hidden="true" href="#what-went-well">#</a></h2>
+<ul>
+<li>Able to finish all assignments on-time</li>
+</ul>
+<h2 id="what-could-have-been-better">What could have been better<a hidden class="anchor" aria-hidden="true" href="#what-could-have-been-better">#</a></h2>
+<ul>
+<li>Time management can be fixed in the second half</li>
+<li>Rarely attended office hours as assignments are done near the deadline</li>
+</ul>
+<h2 id="conclusion">Conclusion<a hidden class="anchor" aria-hidden="true" href="#conclusion">#</a></h2>
+<p>Overall, I really enjoyed this term&rsquo;s courses. Nothing much to say. Feel free to contact me if you have any questions :D.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+<nav class="paginav">
+  <a class="next" href="https://brianrahadi.com/posts/term-review-2022summer/">
+    <span class="title"> »</span>
+    <br>
+    <span>Term Review - Summer 2022</span>
+  </a>
+</nav>
+
+
+<div class="share-buttons">
+    <a target="_blank" rel="noopener noreferrer" aria-label="share Term Review - Fall 2022 on twitter"
+        href="https://twitter.com/intent/tweet/?text=Term%20Review%20-%20Fall%202022&amp;url=https%3a%2f%2fbrianrahadi.com%2fposts%2fterm-review-2022fall%2f&amp;hashtags=">
+        <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve">
+            <path
+                d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-253.927,424.544c135.939,0 210.268,-112.643 210.268,-210.268c0,-3.218 0,-6.437 -0.153,-9.502c14.406,-10.421 26.973,-23.448 36.935,-38.314c-13.18,5.824 -27.433,9.809 -42.452,11.648c15.326,-9.196 26.973,-23.602 32.49,-40.92c-14.252,8.429 -30.038,14.56 -46.896,17.931c-13.487,-14.406 -32.644,-23.295 -53.946,-23.295c-40.767,0 -73.87,33.104 -73.87,73.87c0,5.824 0.613,11.494 1.992,16.858c-61.456,-3.065 -115.862,-32.49 -152.337,-77.241c-6.284,10.881 -9.962,23.601 -9.962,37.088c0,25.594 13.027,48.276 32.95,61.456c-12.107,-0.307 -23.448,-3.678 -33.41,-9.196l0,0.92c0,35.862 25.441,65.594 59.311,72.49c-6.13,1.686 -12.72,2.606 -19.464,2.606c-4.751,0 -9.348,-0.46 -13.946,-1.38c9.349,29.426 36.628,50.728 68.965,51.341c-25.287,19.771 -57.164,31.571 -91.8,31.571c-5.977,0 -11.801,-0.306 -17.625,-1.073c32.337,21.15 71.264,33.41 112.95,33.41Z" />
+        </svg>
+    </a>
+    <a target="_blank" rel="noopener noreferrer" aria-label="share Term Review - Fall 2022 on linkedin"
+        href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fbrianrahadi.com%2fposts%2fterm-review-2022fall%2f&amp;title=Term%20Review%20-%20Fall%202022&amp;summary=Term%20Review%20-%20Fall%202022&amp;source=https%3a%2f%2fbrianrahadi.com%2fposts%2fterm-review-2022fall%2f">
+        <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve">
+            <path
+                d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z" />
+        </svg>
+    </a>
+    <a target="_blank" rel="noopener noreferrer" aria-label="share Term Review - Fall 2022 on reddit"
+        href="https://reddit.com/submit?url=https%3a%2f%2fbrianrahadi.com%2fposts%2fterm-review-2022fall%2f&title=Term%20Review%20-%20Fall%202022">
+        <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve">
+            <path
+                d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-3.446,265.638c0,-22.964 -18.616,-41.58 -41.58,-41.58c-11.211,0 -21.361,4.457 -28.841,11.666c-28.424,-20.508 -67.586,-33.757 -111.204,-35.278l18.941,-89.121l61.884,13.157c0.756,15.734 13.642,28.29 29.56,28.29c16.407,0 29.706,-13.299 29.706,-29.701c0,-16.403 -13.299,-29.702 -29.706,-29.702c-11.666,0 -21.657,6.792 -26.515,16.578l-69.105,-14.69c-1.922,-0.418 -3.939,-0.042 -5.585,1.036c-1.658,1.073 -2.811,2.761 -3.224,4.686l-21.152,99.438c-44.258,1.228 -84.046,14.494 -112.837,35.232c-7.468,-7.164 -17.589,-11.591 -28.757,-11.591c-22.965,0 -41.585,18.616 -41.585,41.58c0,16.896 10.095,31.41 24.568,37.918c-0.639,4.135 -0.99,8.328 -0.99,12.576c0,63.977 74.469,115.836 166.33,115.836c91.861,0 166.334,-51.859 166.334,-115.836c0,-4.218 -0.347,-8.387 -0.977,-12.493c14.564,-6.47 24.735,-21.034 24.735,-38.001Zm-119.474,108.193c-20.27,20.241 -59.115,21.816 -70.534,21.816c-11.428,0 -50.277,-1.575 -70.522,-21.82c-3.007,-3.008 -3.007,-7.882 0,-10.889c3.003,-2.999 7.882,-3.003 10.885,0c12.777,12.781 40.11,17.317 59.637,17.317c19.522,0 46.86,-4.536 59.657,-17.321c3.016,-2.999 7.886,-2.995 10.885,0.008c3.008,3.011 3.003,7.882 -0.008,10.889Zm-5.23,-48.781c-16.373,0 -29.701,-13.324 -29.701,-29.698c0,-16.381 13.328,-29.714 29.701,-29.714c16.378,0 29.706,13.333 29.706,29.714c0,16.374 -13.328,29.698 -29.706,29.698Zm-160.386,-29.702c0,-16.381 13.328,-29.71 29.714,-29.71c16.369,0 29.689,13.329 29.689,29.71c0,16.373 -13.32,29.693 -29.689,29.693c-16.386,0 -29.714,-13.32 -29.714,-29.693Z" />
+        </svg>
+    </a>
+    <a target="_blank" rel="noopener noreferrer" aria-label="share Term Review - Fall 2022 on facebook"
+        href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fbrianrahadi.com%2fposts%2fterm-review-2022fall%2f">
+        <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve">
+            <path
+                d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-106.468,0l0,-192.915l66.6,0l12.672,-82.621l-79.272,0l0,-53.617c0,-22.603 11.073,-44.636 46.58,-44.636l36.042,0l0,-70.34c0,0 -32.71,-5.582 -63.982,-5.582c-65.288,0 -107.96,39.569 -107.96,111.204l0,62.971l-72.573,0l0,82.621l72.573,0l0,192.915l-191.104,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Z" />
+        </svg>
+    </a>
+    
+</div>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2022 <a href="https://brianrahadi.com/">Brian Rahadi</a></span>
+
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerText = 'copy';
+
+        function copyingDone() {
+            copybutton.innerText = 'copied!';
+            setTimeout(() => {
+                copybutton.innerText = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>
